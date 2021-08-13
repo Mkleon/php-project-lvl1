@@ -2,6 +2,7 @@
     "name": "hexlet/code",
     "description": "Brain games for your mind",
     "type": "project",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
@@ -12,6 +13,9 @@
             "name": "Kirill Miklashevsky",
             "email": "klmiklashevsky@gmail.com"
         }
+    ],
+    "bin": [
+        "bin/brain-games"
     ],
     "minimum-stability": "dev",
     "require": {}
