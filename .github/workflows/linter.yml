@@ -12,5 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Check code
+      - name: Setup phpcs
+        uses: squizlabs/php_codesniffer
+      - name: Run linter
         run: make lint
