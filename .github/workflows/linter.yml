@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Setup phpcs
-        uses: squizlabs/php_codesniffer
+      - name: Install
+        run: make install
       - name: Run linter
         run: make lint
