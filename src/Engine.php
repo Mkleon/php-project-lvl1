@@ -17,6 +17,7 @@ function engine($description, $data)
         [$output, $correctAnswer] = $item;
 
         line("Question: %s", $output);
+        line("Hint: %s", $correctAnswer);
 
         $answer = prompt("Your answer");
 

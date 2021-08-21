@@ -14,3 +14,8 @@ How to install and use this game.
 
 How to use this game.
 [![asciicast](https://asciinema.org/a/431544.svg)](https://asciinema.org/a/431544)
+
+#### Brain-gcd game
+
+How to use this game.
+[![asciicast](https://asciinema.org/a/431563.svg)](https://asciinema.org/a/431563)

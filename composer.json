@@ -11,6 +11,7 @@
             "src/Cli.php",
             "src/Games/BrainEven.php",
             "src/Games/BrainCalc.php",
+            "src/Games/BrainGcd.php",
             "src/Engine.php"
         ]
     },
