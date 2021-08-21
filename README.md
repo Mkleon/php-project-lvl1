@@ -9,3 +9,7 @@
 
 How to install and use this game.
 [![asciicast](https://asciinema.org/a/431525.svg)](https://asciinema.org/a/431525)
+
+#### Brain-calc game
+
+How to use this game.
