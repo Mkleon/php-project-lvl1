@@ -1,29 +1,26 @@
 <?php
 
-namespace Brain\Games\Even;
+namespace Brain\Engine;
 
 use function cli\line;
 use function cli\prompt;
 
-function even()
+function engine($description, $data)
 {
-    $gamesCount = 3;
-
     line('Welcome to the Brain Games!');
 
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
-    line('Answer "yes" if the number is even, otherwise answer "no".');
+    line("%s", $description);
 
-    for ($i = 1; $i <= $gamesCount; $i++) {
-        $number = rand(1, 99);
-        $correctAnswer = $number % 2 === 0 ? 'yes' : 'no';
+    foreach ($data as $item) {
+        [$output, $correctAnswer] = $item;
 
-        line("Question: %s", $number);
+        line("Question: %s", $output);
 
         $answer = prompt("Your answer");
 
-        if ($correctAnswer === $answer) {
+        if ((string) $correctAnswer === $answer) {
             line("Correct!");
             continue;
         }

@@ -2,18 +2,13 @@
 
 namespace Brain\Games\Calc;
 
-use function cli\line;
-use function cli\prompt;
+use Brain\Engine;
 
 function calc()
 {
     $gamesCount = 3;
-
-    line('Welcome to the Brain Games!');
-
-    $name = prompt('May I have your name?');
-    line("Hello, %s!", $name);
-    line("What is the result of the expression?");
+    $description = "What is the result of the expression?";
+    $data = [];
 
     for ($i = 1; $i <= $gamesCount; $i++) {
         $operations = "+-*";
@@ -37,19 +32,8 @@ function calc()
                 break;
         }
 
-        line("Question: %s", $output);
-
-        $answer = prompt("Your answer");
-
-        if ((string) $correctAnswer === $answer) {
-            line("Correct!");
-            continue;
-        }
-
-        line("'%s' is wrong answer ;(. Correct answer was '%s'.", $answer, $correctAnswer);
-        line("Let's try again, %s!", $name);
-        return;
+        $data[] = [$output, $correctAnswer];
     }
 
-    line("Congratulations, %s!", $name);
+    Engine\engine($description, $data);
 }

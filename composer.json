@@ -9,8 +9,9 @@
         },
         "files": [
             "src/Cli.php",
-            "src/BrainEven.php",
-            "src/BrainCalc.php"
+            "src/Games/BrainEven.php",
+            "src/Games/BrainCalc.php",
+            "src/Engine.php"
         ]
     },
     "authors": [
