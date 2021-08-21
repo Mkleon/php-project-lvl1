@@ -28,8 +28,8 @@ function even()
             continue;
         }
 
-        line("'%s' is wrong answer ;(. Correct answer was '%s'.", $answer, $answer === 'no' ? 'yes' : 'no');
-        line("Let's try again, %name!", $name);
+        line("'%s' is wrong answer ;(. Correct answer was '%s'.", $answer, $correctAnswer);
+        line("Let's try again, %s!", $name);
         return;
     }
 
