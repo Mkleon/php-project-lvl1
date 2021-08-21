@@ -12,6 +12,7 @@
             "src/Games/BrainEven.php",
             "src/Games/BrainCalc.php",
             "src/Games/BrainGcd.php",
+            "src/Games/BrainProgression.php",
             "src/Engine.php"
         ]
     },
@@ -24,7 +25,9 @@
     "bin": [
         "bin/brain-games",
         "bin/brain-even",
-        "bin/brain-calc"
+        "bin/brain-calc",
+        "bin/brain-gcd",
+        "bin/brain-progression"
     ],
     "minimum-stability": "dev",
     "require": {

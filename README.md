@@ -19,3 +19,8 @@ How to use this game.
 
 How to use this game.
 [![asciicast](https://asciinema.org/a/431563.svg)](https://asciinema.org/a/431563)
+
+#### Brain-progression game
+
+How to use this game.
+[![asciicast](https://asciinema.org/a/431566.svg)](https://asciinema.org/a/431566)
