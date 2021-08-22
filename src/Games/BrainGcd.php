@@ -4,7 +4,7 @@ namespace Brain\Games\Gcd;
 
 use Brain\Engine;
 
-function findGcd($a, $b)
+function findGcd($a, $b): int
 {
     if ($a === $b) {
         return $a;
@@ -15,7 +15,7 @@ function findGcd($a, $b)
     return $diff > 0 ? findGcd($diff, $b) : findGcd($a, abs($diff));
 }
 
-function gcd()
+function gcd(): void
 {
     $gamesCount = 3;
     $description = 'Find the greatest common divisor of given numbers.';

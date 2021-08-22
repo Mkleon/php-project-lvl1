@@ -4,7 +4,7 @@ namespace Brain\Games\Progression;
 
 use Brain\Engine;
 
-function createProgression($length, $firstItem, $step)
+function createProgression($length, $firstItem, $step): array
 {
     $result = [];
 
@@ -15,7 +15,7 @@ function createProgression($length, $firstItem, $step)
     return $result;
 }
 
-function progression()
+function progression(): void
 {
     $gamesCount = 3;
     $description = 'What number is missing in the progression?';

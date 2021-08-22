@@ -5,7 +5,7 @@ namespace Brain\Engine;
 use function cli\line;
 use function cli\prompt;
 
-function engine($description, $data)
+function engine(string $description, array $data): void
 {
     line('Welcome to the Brain Games!');
 

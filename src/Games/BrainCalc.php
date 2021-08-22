@@ -4,7 +4,7 @@ namespace Brain\Games\Calc;
 
 use Brain\Engine;
 
-function calc()
+function calc(): void
 {
     $gamesCount = 3;
     $description = "What is the result of the expression?";
