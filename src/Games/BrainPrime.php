@@ -4,7 +4,7 @@ namespace Brain\Games\Prime;
 
 use Brain\Engine;
 
-function isPrime($number): bool
+function isPrime(int $number): bool
 {
     for ($i = 2, $end = ceil($number / 2); $i <= $end; $i++) {
         if ($number % $i === 0) {

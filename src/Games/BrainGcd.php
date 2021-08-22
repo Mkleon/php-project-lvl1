@@ -4,7 +4,7 @@ namespace Brain\Games\Gcd;
 
 use Brain\Engine;
 
-function findGcd($a, $b): int
+function findGcd(int $a, int $b): int
 {
     if ($a === $b) {
         return $a;

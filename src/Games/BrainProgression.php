@@ -4,7 +4,7 @@ namespace Brain\Games\Progression;
 
 use Brain\Engine;
 
-function createProgression($length, $firstItem, $step): array
+function createProgression(int $length, int $firstItem, int $step): array
 {
     $result = [];
 

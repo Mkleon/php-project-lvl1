@@ -12,6 +12,8 @@ function calc(): void
 
     for ($i = 1; $i <= $gamesCount; $i++) {
         $operations = "+-*";
+        $output = "";
+        $correctAnswer = "";
 
         $operator = $operations[rand(0, 2)];
         $operand1 = rand(1, 9);
