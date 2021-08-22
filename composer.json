@@ -13,6 +13,7 @@
             "src/Games/BrainCalc.php",
             "src/Games/BrainGcd.php",
             "src/Games/BrainProgression.php",
+            "src/Games/BrainPrime.php",
             "src/Engine.php"
         ]
     },
@@ -27,6 +28,7 @@
         "bin/brain-even",
         "bin/brain-calc",
         "bin/brain-gcd",
+        "bin/brain-prime",
         "bin/brain-progression"
     ],
     "minimum-stability": "dev",

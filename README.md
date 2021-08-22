@@ -24,3 +24,8 @@ How to use this game.
 
 How to use this game.
 [![asciicast](https://asciinema.org/a/431566.svg)](https://asciinema.org/a/431566)
+
+#### Brain-prime game
+
+How to use this game.
+[![asciicast](https://asciinema.org/a/431590.svg)](https://asciinema.org/a/431590)
