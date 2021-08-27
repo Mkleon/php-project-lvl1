@@ -20,18 +20,18 @@ function calc(): void
         $operand2 = rand(1, 9);
 
         switch ($operator) {
-        case '+':
-            $output = "{$operand1} + {$operand2}";
-            $correctAnswer = $operand1 + $operand2;
-            break;
-        case '-':
-            $output = "{$operand1} - {$operand2}";
-            $correctAnswer = $operand1 - $operand2;
-            break;
-        case '*':
-            $output = "{$operand1} * {$operand2}";
-            $correctAnswer = $operand1 * $operand2;
-            break;
+            case '+':
+                $output = "{$operand1} + {$operand2}";
+                $correctAnswer = $operand1 + $operand2;
+                break;
+            case '-':
+                $output = "{$operand1} - {$operand2}";
+                $correctAnswer = $operand1 - $operand2;
+                break;
+            case '*':
+                $output = "{$operand1} * {$operand2}";
+                $correctAnswer = $operand1 * $operand2;
+                break;
         }
 
         $data[] = [$output, $correctAnswer];
